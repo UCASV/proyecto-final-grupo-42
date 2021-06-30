@@ -42,7 +42,6 @@ namespace Proyecto
             this.historialDeVacunacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.prechequeoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colaDeEsperaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.observacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -261,8 +260,7 @@ namespace Proyecto
             this.registroToolStripMenuItem,
             this.historialDeVacunacionToolStripMenuItem,
             this.prechequeoToolStripMenuItem,
-            this.colaDeEsperaToolStripMenuItem,
-            this.observacionToolStripMenuItem});
+            this.colaDeEsperaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(102, 41);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(578, 42);
@@ -304,14 +302,6 @@ namespace Proyecto
             this.colaDeEsperaToolStripMenuItem.Size = new System.Drawing.Size(89, 38);
             this.colaDeEsperaToolStripMenuItem.Text = "Observacion";
             this.colaDeEsperaToolStripMenuItem.Click += new System.EventHandler(this.colaDeEsperaToolStripMenuItem_Click);
-            // 
-            // observacionToolStripMenuItem
-            // 
-            this.observacionToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
-            this.observacionToolStripMenuItem.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.observacionToolStripMenuItem.Name = "observacionToolStripMenuItem";
-            this.observacionToolStripMenuItem.Size = new System.Drawing.Size(75, 38);
-            this.observacionToolStripMenuItem.Text = "Estadistica";
             // 
             // tabControl1
             // 
@@ -1473,7 +1463,7 @@ namespace Proyecto
             this.tableLayoutPanel7.ColumnCount = 3;
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 31.93717F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 68.06283F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 166F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 167F));
             this.tableLayoutPanel7.Controls.Add(this.label38, 1, 0);
             this.tableLayoutPanel7.Controls.Add(this.labelFechacita1, 1, 4);
             this.tableLayoutPanel7.Controls.Add(this.label41, 1, 3);
@@ -1550,7 +1540,7 @@ namespace Proyecto
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Location = new System.Drawing.Point(56, 123);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 23);
+            this.button1.Size = new System.Drawing.Size(108, 23);
             this.button1.TabIndex = 6;
             this.button1.Text = "Agregar a la cola";
             this.button1.UseVisualStyleBackColor = true;
@@ -1558,7 +1548,7 @@ namespace Proyecto
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(171, 123);
+            this.button4.Location = new System.Drawing.Point(170, 123);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(46, 23);
             this.button4.TabIndex = 7;
@@ -1915,7 +1905,6 @@ namespace Proyecto
         private System.Windows.Forms.ToolStripMenuItem historialDeVacunacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem prechequeoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem colaDeEsperaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem observacionToolStripMenuItem;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;

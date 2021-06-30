@@ -21,8 +21,15 @@ namespace Proyecto
        
         public Home(Cabin cabin, Employee employee)
         {
+           
             InitializeComponent();
-            
+
+            tabControl1.Appearance = TabAppearance.FlatButtons;
+            tabControl1.ItemSize = new Size(0, 1);
+            tabControl1.SizeMode = TabSizeMode.Fixed;
+            tabControl1.TabStop = false;
+
+
             this.cabin = cabin;
             this.employee = employee;
         }
