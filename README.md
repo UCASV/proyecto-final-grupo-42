@@ -22,7 +22,7 @@ enables rapid and frequent development and deployment, allows a team to deploy i
 Event Sourcing: to start performing the associated actions, Because it delegates the information to the module in charge of processing this data.
 
 ## Installation
-in the folder Programación orientada a objetos, double-click on the folder named Proyecto, then double-clic on the folder publish there will be a file called setup double-click on and accept the permissions so that it can be installed. 
+in the folder "Programación orientada a objetos", then double-clic on the folder "Instalador" there will be a file called setup double-click on and accept the permissions so that it can be installed. 
 
 ## framework version used: 5.0
 
